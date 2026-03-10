@@ -1,0 +1,266 @@
+1. Email Spam Detection
+Objective
+
+Build a model that can classify emails as Spam or Not Spam (Ham).
+
+Dataset
+
+Spam email dataset containing labeled messages:
+
+Spam
+
+Ham (not spam)
+
+Steps Performed
+
+Data Loading
+
+Text Cleaning and Preprocessing
+
+Feature Engineering using TF-IDF
+
+Model Training
+
+Model Evaluation
+
+Prediction Testing
+
+Models Used
+
+Naive Bayes
+
+Logistic Regression
+
+Support Vector Machine (SVM)
+
+Feature Engineering
+
+TF-IDF (Term Frequency – Inverse Document Frequency) was used to convert text into numerical vectors.
+
+Example pipeline:
+
+Text → Cleaning → TF-IDF → Model → Prediction
+
+Evaluation Metrics
+
+Accuracy
+
+Confusion Matrix
+
+Precision
+
+Recall
+
+F1 Score
+
+Results
+
+Machine learning models such as Naive Bayes and Logistic Regression performed very well, achieving high accuracy for spam classification.
+
+2. Movie Sentiment Analysis
+Objective
+
+Classify movie reviews into:
+
+Positive
+
+Negative
+
+This project compares Deep Learning vs Machine Learning approaches for text classification.
+
+Dataset
+
+Movie review dataset containing labeled sentiments.
+
+Data Processing
+
+Steps used in preprocessing:
+
+Lowercasing
+
+Removing punctuation
+
+Removing stopwords
+
+Tokenization
+
+Text vectorization
+
+Feature Engineering
+
+Two approaches were tested:
+
+TF-IDF
+
+Word embeddings
+
+Models Implemented
+
+Machine Learning Models
+
+Naive Bayes
+
+Logistic Regression
+
+Support Vector Machine
+
+Deep Learning Model
+
+LSTM (Long Short-Term Memory)
+
+Observations
+
+Machine learning models using TF-IDF performed very well on smaller datasets.
+Deep learning models required more data and careful regularization to avoid overfitting.
+
+Evaluation
+
+Models were evaluated using:
+
+Accuracy
+
+Validation accuracy
+
+Loss curves
+
+Confusion matrix
+
+3. Text Classification Experiments
+
+This section includes experiments with different text classification techniques.
+
+Topics explored include:
+
+Feature engineering for text
+
+TF-IDF vectorization
+
+Word embeddings
+
+Model comparison
+
+Models explored:
+
+Naive Bayes
+
+Logistic Regression
+
+Support Vector Machines
+
+Key goal:
+
+Understanding how different models perform on text classification tasks.
+
+4. CNN Image Classification (Dogs vs Cats)
+Objective
+
+Build a Convolutional Neural Network (CNN) to classify images as:
+
+Dog
+
+Cat
+
+Dataset
+
+Dogs vs Cats image dataset.
+
+Image Preprocessing
+
+Steps included:
+
+Image resizing
+
+Normalization
+
+Data splitting (training / validation)
+
+CNN Architecture
+
+The CNN model includes:
+
+Convolution layers
+
+ReLU activation
+
+MaxPooling layers
+
+Fully connected layers
+
+Dropout for regularization
+
+Training
+
+The model was trained using:
+
+Binary cross entropy loss
+
+Adam optimizer
+
+Evaluation
+
+Model performance was evaluated using:
+
+Training accuracy
+
+Validation accuracy
+
+Loss curves
+
+Technologies Used
+
+Python
+NumPy
+Pandas
+Scikit-learn
+TensorFlow / Keras
+Matplotlib
+Seaborn
+NLTK
+
+Key Learnings
+
+Through these projects, the following concepts were explored:
+
+Text preprocessing for NLP
+
+Feature engineering using TF-IDF
+
+Comparison of Machine Learning vs Deep Learning models
+
+Overfitting and regularization techniques
+
+CNN architecture for image classification
+
+Model evaluation and performance analysis
+
+Repository Structure
+
+Text-Classification/
+│
+├── Email-Spam-Detection/
+│ └── spam_detection.ipynb
+│
+├── Movie-Sentiment-Analysis/
+│ └── sentiment_analysis.ipynb
+│
+├── Text-Classification/
+│ └── experiments.ipynb
+│
+├── CNN-Dogs-vs-Cats/
+│ └── cnn_dogs_vs_cats.ipynb
+│
+└── README.md
+
+Future Improvements
+
+Use Transformer models such as BERT for sentiment analysis
+
+Deploy models using Streamlit or Flask
+
+Improve deep learning performance using pretrained embeddings
+
+Experiment with larger NLP datasets
+
+Author
+
+Machine Learning and Deep Learning experiments focused on practical NLP and computer vision tasks.
